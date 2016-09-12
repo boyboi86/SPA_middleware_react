@@ -1,4 +1,4 @@
-import { FETCH_USERS } from '../actions/index';
+import { FETCH_USERS } from '../actions/types';
 
 export function fetchUsers(){
   return {
