@@ -11,7 +11,7 @@ class UserList extends Component {
 
   renderUser(user){
     return (
-      <div className="card card-block" key={user.name}>
+      <div className="card card-block" key={user.id}>
         <h3 className="card-title">{ user.name }</h3>
         <p className="card-text">Cheese Factory</p>
         <a className="btn btn-primary">Email</a>
