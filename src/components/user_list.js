@@ -16,7 +16,7 @@ class UserList extends Component {
         <p className="card-text">{ user.company.name }</p>
         <a className="btn btn-primary" href={ user.website } target="_blank">Website</a>
       </div>
-    )
+    );
   }
 
   render(){
